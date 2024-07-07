@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/themeProvider";
+import { sleep } from "@/lib/utils";
+import Sidebar from "@/components/Sidebar"; 
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -11,11 +13,12 @@ export const metadata: Metadata = {
   description: "Clone Youtube Music",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -25,7 +28,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <Sidebar>
+            {children}
+          </Sidebar> 
         </ThemeProvider>
       </body>
     </html>
