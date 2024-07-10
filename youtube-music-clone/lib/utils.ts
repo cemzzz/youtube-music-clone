@@ -18,3 +18,17 @@ export function getRandomElementFromArray(arr:any[]) {
   const len = arr?.length;
   return arr[getRandomInt(0, len - 1)];
 }
+
+export function chunkArray(arr:any[], chunkSize:number){
+  const resultArray = [];
+  for(let i =0; i<arr.length; i+=chunkSize){
+    const chunk = arr.slice(i, i + chunkSize);
+    resultArray.push(chunk)
+  }
+  return resultArray;
+}
+
+// 장르쪽 랜덤 색상 부여 (색상컬러값으로 인한 16진수 부여)
+export function generateRandomHex() {
+  return "#" +((Math.random() * 0xffffff) << 0).toString(16).padStart(6, "0")
+}
