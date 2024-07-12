@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/providers/themeProvider";
 import { sleep } from "@/lib/utils";
 import Sidebar from "@/components/Sidebar"; 
+import PlayerWrapper from "@/components/player/PlayerWrapper"; 
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -30,7 +31,9 @@ export default async function RootLayout({
         >
           <Sidebar>
             {children}
-          </Sidebar> 
+          </Sidebar>
+          <PlayerWrapper>
+          </PlayerWrapper> 
         </ThemeProvider>
       </body>
     </html>
