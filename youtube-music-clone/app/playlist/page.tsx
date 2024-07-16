@@ -17,6 +17,7 @@ const page = async (props: playlistPageProps) => {
   const playlist = await getPlaylistById(Number(props.searchParams.list));
 
   if(!playlist) permanentRedirect("/");
+  
   const imageSrc = getRandomElementFromArray(playlist.songList)?.imageSrc;
 
   return (
