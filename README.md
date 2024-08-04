@@ -49,6 +49,7 @@ next.js로 youtube-music 클론을 프로젝트를 진행했습니다.
 
 <h3> 모바일 반응형 </h3>
 <div>
+ <p>모바일 해상도에서는 사이드바를 감추고 메뉴 버튼을 클릭 시 사이드바가 보이게 설정했습니다.</p>
 <img width="100%" src="https://github.com/user-attachments/assets/3273edc3-c8c5-4653-830e-b5033aafbc78"/>
 </div>
 
