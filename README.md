@@ -1,5 +1,6 @@
 # youtube-music clone (next.js로 유튜브 뮤직 클론 제작)
 next.js로 youtube-music 클론을 프로젝트를 진행했습니다.
+해당 프로젝트에서 css는 tailwind css를 사용했습니다.
 
 
 # 🛠
@@ -13,24 +14,37 @@ next.js로 youtube-music 클론을 프로젝트를 진행했습니다.
 
 # 📌 프로젝트 개요
 
-<h4> 메인 </h4>
+<h4> 홈 </h4>
 <div>
-<p>메인 상단</p>
-<img width="75%" src="https://github.com/user-attachments/assets/d31f0e43-1cec-4427-95c1-c5397d790448"/>
+<img width="75%" src="https://github.com/user-attachments/assets/2a3ce51f-be02-4f1b-9783-ea5eb3281a37"/>
 </div>
 
+<h4> 둘러보기 </h4>
 <div>
- <p>메인 영화 리스트</p>
- <img width="75%" src="https://github.com/user-attachments/assets/525a37b4-628f-497d-881b-741fd9825a77"/>
+<img width="75%" src="https://github.com/user-attachments/assets/f9d215dd-7ce3-459d-8186-222df8881ef8"/>
 </div>
 
-<h4> 영화 리스트 및 검색 결과 </h4>
+
+<h4> 보관함 </h4>
 <div>
-<p> 영화 리스트</p>
-<img width="75%" src="https://github.com/user-attachments/assets/e03232cf-ee5e-4a2b-84b5-ccf45fcee9d1"/>
+<img width="75%" src="https://github.com/user-attachments/assets/02cd6c54-ae77-4f7f-8e13-02428e28345c"/>
 </div>
 
+<h4> 플레이리스트 </h4>
 <div>
- <p>영화 검색 결과</p>
- <img width="75%" src="https://github.com/user-attachments/assets/e08b3593-717e-4ade-a256-09a362858ca6"/>
+<img width="75%" src="https://github.com/user-attachments/assets/56e24cfa-79bc-4fea-8fdc-5caa0ca0be2b"/>
 </div>
+
+
+
+<h4> 모바일 반응형 </h4>
+<div>
+<img width="75%" src="https://github.com/user-attachments/assets/3273edc3-c8c5-4653-830e-b5033aafbc78"/>
+</div>
+
+
+<div>
+ <img width="75%" src="https://github.com/user-attachments/assets/972bf1d8-9b34-4e3c-9339-9178f92f8897"/>
+</div>
+
+
